@@ -52,3 +52,49 @@ h1 {
     font-size: 36px;
     font-weight: bold;
 }
+.container {
+    display: flex;
+    height: 150vh;
+    background-color: black;
+    margin-top: -13%;  
+
+}
+  
+  /* Left section for "1 Hotel" */
+  .left-section {
+    flex: 2;
+    background-image: url('farm.jpg'); /* Replace with the actual image */
+    background-position: left;
+    margin-top: 8%;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 60% 70%;
+  }
+  .right-section::before {
+        content: '';
+    background-image: url('me.jpg');
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    width: 30%;
+    height: 40%;
+    top: 70%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    background-repeat: no-repeat;
+    border-radius: 10px;
+  }
+  .lamaw::before {
+    content: '';
+background-image: url('me1.jpg');
+background-position: center;
+background-size: cover;
+position: absolute;
+width: 30%;
+height: 40%;
+top: 70%;
+left: 80%;
+transform: translate(-50%, -50%);
+background-repeat: no-repeat;
+border-radius: 10px;
+}
