@@ -52,7 +52,7 @@ h1 {
     font-size: 36px;
     font-weight: bold;
 }
-.container {
+.left {
     display: flex;
     height: 150vh;
     background-color: black;
